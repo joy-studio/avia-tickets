@@ -42,10 +42,3 @@ document.addEventListener('DOMContentLoaded', () => {
     })
   }
 });
-
-
-// locations.init().then(res => {
-//   console.log(res);
-//   console.log(locations);
-//   console.log(locations.getCitiesByCountryCode('AG'));
-// });
