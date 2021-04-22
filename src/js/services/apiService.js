@@ -28,7 +28,6 @@ class Api {
       return Promise.reject(err);
     }
   }
-
   async airlines() {
     try {
       const response = await axios.get(`${this.url}/airlines`);
@@ -38,7 +37,6 @@ class Api {
       return Promise.reject(err);
     }
   }
-
   async prices(params) {
     try {
       const response = await axios.get(`${this.url}/prices/cheap`, {
